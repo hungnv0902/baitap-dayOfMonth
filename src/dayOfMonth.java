@@ -26,7 +26,8 @@ public class dayOfMonth {
             case 11:
                 System.out.println("Thang " + month + " co 30 ngay");
                 break;
-
+            default:
+                System.out.println("Invalid input");
         }
     }
 }
